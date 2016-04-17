@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="100"
+        android:dialogTitle="@string/max_hr"
+        android:inputType="number"
+        android:key="pref_maxhr"
+        android:summary="@string/max_hr"
+        android:title="@string/max_hr" />
+</PreferenceScreen>
